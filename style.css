@@ -1,0 +1,42 @@
+
+body {
+  background: linear-gradient(to bottom right, #7f1d1d, #f59e0b);
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+}
+header, footer {
+  text-align: center;
+  margin: 20px 0;
+}
+.login {
+  background-color: #7f1d1d;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto 40px auto;
+  border-radius: 12px;
+}
+.login input, .login button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+.games div {
+  background-color: #991b1b;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+.games div:hover {
+  transform: scale(1.05);
+}
+footer {
+  color: #fde68a;
+}
